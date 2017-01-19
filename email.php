@@ -56,6 +56,11 @@
      $bodytext =  $bodytext . "<p>Gjest 6: $guest6. Overnatting? $sleepover6</p>";
    }
 
+   if( isset($_POST['kommentar']) ){
+      $comments = $_POST['kommentar'];
+      $bodytext =  $bodytext . "<p>Kommentarer: $kommentar</p>";
+   }
+
    
 
 
