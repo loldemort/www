@@ -23,37 +23,43 @@
    $guest1 = $_POST['gjest_1'];
    $email = $_POST['e_mail'];
    $sleepover1 = $_POST['gjest_1_overnatting'];
+   $bodytext = "<p>Uten følge</p>";
 
    if( isset($_POST['gjest_2']) ){
      $guest2 = $_POST['gjest_2'];
      $sleepover2 = $_POST['gjest_2_overnatting'];
+     $bodytext = "<p>Gjest 2: $guest2. Overnatting? $sleepover2</p>";
    }
 
    if( isset($_POST['gjest_3']) ){
-     $guest2 = $_POST['gjest_3'];
-     $sleepover2 = $_POST['gjest_3_overnatting'];
+     $guest3 = $_POST['gjest_3'];
+     $sleepover3 = $_POST['gjest_3_overnatting'];
+     $bodytext =  $bodytext . "<p>Gjest 3: $guest3. Overnatting? $sleepover3</p>";
    }
 
    if( isset($_POST['gjest_4']) ){
-     $guest2 = $_POST['gjest_4'];
-     $sleepover2 = $_POST['gjest_4_overnatting'];
+     $guest4 = $_POST['gjest_4'];
+     $sleepover4 = $_POST['gjest_4_overnatting'];
+     $bodytext =  $bodytext . "<p>Gjest 4: $guest4. Overnatting? $sleepover4</p>";
    }
 
    if( isset($_POST['gjest_5']) ){
-     $guest2 = $_POST['gjest_5'];
-     $sleepover2 = $_POST['gjest_5_overnatting'];
+     $guest5 = $_POST['gjest_5'];
+     $sleepover5 = $_POST['gjest_5_overnatting'];
+     $bodytext =  $bodytext . "<p>Gjest 5: $guest5. Overnatting? $sleepover5</p>";
    }
 
    if( isset($_POST['gjest_6']) ){
-     $guest2 = $_POST['gjest_6'];
-     $sleepover2 = $_POST['gjest_6_overnatting'];
+     $guest6 = $_POST['gjest_6'];
+     $sleepover6 = $_POST['gjest_6_overnatting'];
+     $bodytext =  $bodytext . "<p>Gjest 6: $guest6. Overnatting? $sleepover6</p>";
    }
 
    
 
 
    $mail->Subject  = "$guest1 har svart på invitasjonen!";
-   $mail->Body     = "$guest1 sin epost er $email";
+   $mail->Body     = "<p>$guest1 sin epost er $email. Overnatting? $sleepover1</p>" . $bodytext;
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
