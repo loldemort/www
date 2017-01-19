@@ -1,6 +1,8 @@
 <?php
    require("php/PHPMailerAutoload.php"); // path to the PHPMailerAutoload.php file.
 
+   error_reporting(E_ALL);
+   ini_set('display_errors', 'On');
    $mail = new PHPMailer();
    $mail->IsSMTP();
    $mail->Mailer = "smtp";
@@ -18,37 +20,60 @@
    $mail->AddAddress("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
    $mail->AddReplyTo("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
 
-   $bodytext = "Eposten til ";
+   $guest1 = " ";
+   $email = " ";
+   $sleepover1 = " ";
+   $guest2 = " "; 
+   $sleepover2 = " ";
+    $guest3 = " "; 
+   $sleepover3 = " "; 
+   $guest4 = " "; 
+   $sleepover4 = " "; 
+   $guest5 = " ";
+    $sleepover5 = " ";
+   $guest6 = " "; 
+   $sleepover6 = " ";
 
    foreach($_POST as $key => $value) {
      if($key == 'gjest_1'){
-        $bodytext = $bodytext . $value;
-     } elseif {
-     }
+        $guest1 = $value;
+     } elseif($key == 'e_mail'){
+        $email = $value;
+     } elseif ($key == 'gjest_2') {
+         $guest2 = "Gjest 2: " . $value;
+     } elseif ($key == 'gjest_3') {
+         $guest3 = "Gjest 3: " . $value;
+     } elseif ($key == 'gjest_4') {
+         $guest4 = "Gjest 4: " . $value;
+     } elseif ($key == 'gjest_5') {
+         $guest5 = "Gjest 5: " . $value;
+     } elseif ($key == 'gjest_6') {
+         $guest6 = "Gjest 6: " . $value;
+     } elseif ($key == 'gjest_1_overnatting') {
+         $sleepover1 = $value;
+     } elseif ($key == 'gjest_2_overnatting') {
+         $sleepover2 = " Overnatting? " . $value;
+     } elseif ($key == 'gjest_3_overnatting') {
+         $sleepover3 = " Overnatting? " . $value;
+     } elseif ($key == 'gjest_4_overnatting') {
+         $sleepover4 = " Overnatting? " . $value;
+     } elseif ($key == 'gjest_5_overnatting') {
+         $sleepover5 = " Overnatting? " . $value;
+     } elseif ($key == 'gjest_6_overnatting') {
+         $sleepover6 = " Overnatting? " . $value;
+     } 
    }
 
-   $sender = $_POST['gjest_1'];
-   $email = $_POST['e_mail'];
-   $sleepover1 = $_POST['gjest_1_overnatting'];
+   $bodytext = "<p>Eposten til $guest1 er $email. Overnatting? $sleepover1</p>
+   <p>$guest2 $sleepover2</p>
+   <p>$guest3 $sleepover3</p>
+   <p>$guest4 $sleepover4</p>
+   <p>$guest5 $sleepover5</p>
+   <p>$guest6 $sleepover6</p>";
 
 
-   /*$guest2 = $_POST['gjest_2']; 
-   $sleepover2 = $_POST['gjest_2_overnatting'];
-    $guest3 = $_POST['gjest_3']; 
-   $sleepover3 = $_POST['gjest_3_overnatting']; 
-   $guest4 = $_POST['gjest_4']; 
-   $sleepover4 = $_POST['gjest_4_overnatting']; 
-   $guest5 = $_POST['gjest_5'];
-    $sleepover5 = $_POST['gjest_5_overnatting']; 
-   $guest6 = $_POST['gjest_6']; 
-   $sleepover6 = $_POST['gjest_6_overnatting'];
-   */
-
-
-
-
-   $mail->Subject  = "$sender har svart på invitasjonen!";
-   $mail->Body     = "E-Posten til $sender er $email .\n Overnatting? $sleepover1 \n ";
+   $mail->Subject  = "$guest1 har svart på invitasjonen!";
+   $mail->Body     = "" . $bodytext;
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
