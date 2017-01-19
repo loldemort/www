@@ -20,19 +20,19 @@
    $mail->AddAddress("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
    $mail->AddReplyTo("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
 
-   $guest1 = " ";
-   $email = " ";
-   $sleepover1 = " ";
-   $guest2 = " "; 
-   $sleepover2 = " ";
-    $guest3 = " "; 
-   $sleepover3 = " "; 
-   $guest4 = " "; 
-   $sleepover4 = " "; 
-   $guest5 = " ";
-    $sleepover5 = " ";
-   $guest6 = " "; 
-   $sleepover6 = " ";
+   $guest1 = "";
+   $email = "";
+   $sleepover1 = "a";
+   $guest2 = "a"; 
+   $sleepover2 = "a";
+    $guest3 = "a"; 
+   $sleepover3 = "a"; 
+   $guest4 = "a"; 
+   $sleepover4 = "a"; 
+   $guest5 = "a";
+    $sleepover5 = "a";
+   $guest6 = "a"; 
+   $sleepover6 = "a";
 
    foreach($_POST as $key => $value) {
      if($key == 'gjest_1'){
