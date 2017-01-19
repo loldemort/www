@@ -20,8 +20,8 @@
 
    $sender = $_POST['Gjest 1'];
    $mail = $_POST['E-Post'];
-   $sleepover1 = $_POST['Gjest 1 overnatting'];
-   
+   $sleepover1 = $_POST['Gjest_1_overnatting'];
+
 
 
    $mail->Subject  = "$sender har svart på invitasjonen!";
