@@ -1,5 +1,5 @@
 <?php
-require("class.PHPMailer.php");
+require("PHPMailer_5.2.0/class.PHPMailer.php");
 
 $mail = new PHPMailer();
 
