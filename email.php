@@ -21,7 +21,7 @@
    $sender = $_POST['gjest_1'];
    $email = $_POST['e_mail'];
    $sleepover1 = $_POST['gjest_1_overnatting'];
-   $guest2 = $_POST['gjest_2']; 
+   /*$guest2 = $_POST['gjest_2']; 
    $sleepover2 = $_POST['gjest_2_overnatting'];
     $guest3 = $_POST['gjest_3']; 
    $sleepover3 = $_POST['gjest_3_overnatting']; 
@@ -31,6 +31,7 @@
     $sleepover5 = $_POST['gjest_5_overnatting']; 
    $guest6 = $_POST['gjest_6']; 
    $sleepover6 = $_POST['gjest_6_overnatting'];
+   */
 
 
 
