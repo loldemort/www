@@ -35,8 +35,8 @@ $(document).ready(function () {
             $("#extraPersons").append("<div class='col-sm-4'> <div class = 'panel panel-default'><div class = 'panel-body'><h5>Fint! Da vil vi gjerne ha navnet på de andre også.</h5> </div></div></div>")
             for (i = 0; i < persons; i++) {
                 var sleepoverid = "sleepover" + i;
-                $("#extraPersons").append("<div class='col-sm-4'> <input type='name' name='Gjest " + (i+2) + "' id = 'person" + (i + 2) + "'class='form-control' placeholder='Gjest " + (i + 2) + "'> </div>" +
-                    " <div class='col-sm-4'><select class = 'form-control' name ='Gjest " + (i+2) + " overnatting?' id = '" + sleepoverid + "'>" +
+                $("#extraPersons").append("<div class='col-sm-4'> <input type='name' name='gjest_" + (i+2) + "' id = 'person" + (i + 2) + "'class='form-control' placeholder='Gjest " + (i + 2) + "'> </div>" +
+                    " <div class='col-sm-4'><select class = 'form-control' name ='gjest_" + (i+2) + "_overnatting' id = '" + sleepoverid + "'>" +
                     "<option value = 0>-- Skal han/hun overnatte? --</option>" +
                     "<option value = ja>Ja</option>" +
                     "<option value = nei>Nei</select></div>")

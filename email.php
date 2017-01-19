@@ -21,11 +21,22 @@
    $sender = $_POST['gjest_1'];
    $email = $_POST['e_mail'];
    $sleepover1 = $_POST['gjest_1_overnatting'];
+   $guest2 = $_POST['gjest_2']; 
+   $sleepover2 = $_POST['gjest_2_overnatting'];
+    $guest3 = $_POST['gjest_3']; 
+   $sleepover3 = $_POST['gjest_3_overnatting']; 
+   $guest4 = $_POST['gjest_4']; 
+   $sleepover4 = $_POST['gjest_4_overnatting']; 
+   $guest5 = $_POST['gjest_5'];
+    $sleepover5 = $_POST['gjest_5_overnatting']; 
+   $guest6 = $_POST['gjest_6']; 
+   $sleepover6 = $_POST['gjest_6_overnatting'];
+
 
 
 
    $mail->Subject  = "$sender har svart på invitasjonen!";
-   $mail->Body     = "E-Posten til $sender er $email";
+   $mail->Body     = "E-Posten til $sender er $email .\n Overnatting? $sleepover1 \n $guest2 overnatting? $sleepover3";
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
