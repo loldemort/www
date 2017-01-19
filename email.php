@@ -58,7 +58,7 @@
 
    if( isset($_POST['kommentar']) ){
       $comments = $_POST['kommentar'];
-      $bodytext =  $bodytext . "<p>Kommentarer: $kommentar</p>";
+      $bodytext =  $bodytext . "<p>Kommentarer: $comments</p>";
    }
 
    
