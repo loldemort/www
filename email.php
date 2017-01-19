@@ -4,7 +4,7 @@
    $mail = new PHPMailer();
    $mail->IsSMTP();
    $mail->Mailer = "smtp";
-   $mail->Host = "mail.domeneshop.no";
+   $mail->Host = "smtp.domeneshop.no";
    $mail->Port = "587"; // 8025, 587 and 25 can also be used. Use Port 465 for SSL.
    $mail->SMTPAuth = true;
    $mail->SMTPSecure = 'tls';
