@@ -13,10 +13,10 @@
    $mail->Username = "AKIAI6QIWAF6XJQT2FEQ";
    $mail->Password = "AgI86lg6cpg/qntNj+NwShyjl+fxmdnA1Yc+nwXNIjpU";
 
-   $mail->From     = "ingridogjoakim@gmail.com";
+   $mail->From     = "oysteinbhauan@gmail.com";
    $mail->FromName = "Bryllupsweb";
    $mail->AddAddress("invitasjon@ingridogjoakim.no", "Admin");
-   $mail->AddReplyTo("ingridogjoakim@gmail.com", "Bernt");
+   $mail->AddReplyTo("oysteinbhauan@gmail.com", "Bernt");
 
    $mail->Subject  = "Hi!";
    $mail->Body     = "Hi! How are you?";
