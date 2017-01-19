@@ -36,7 +36,7 @@
 
 
    $mail->Subject  = "$sender har svart på invitasjonen!";
-   $mail->Body     = "E-Posten til $sender er $email .\n Overnatting? $sleepover1 \n $guest2 overnatting? $sleepover3";
+   $mail->Body     = "E-Posten til $sender er $email .\n Overnatting? $sleepover1 \n $guest2 overnatting? $sleepover2";
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
