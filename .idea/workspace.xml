@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bfb8e843-b69e-4270-b02b-79770fe9dc88" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email.php" afterPath="$PROJECT_DIR$/email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reply.html" afterPath="$PROJECT_DIR$/reply.html" />
     </list>
     <ignored path="website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +58,7 @@
           <file leaf-file-name="reply.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/reply.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
+                <state relative-caret-position="45">
                   <caret line="114" column="85" selection-start-line="114" selection-start-column="85" selection-end-line="114" selection-end-column="85" />
                   <folding />
                 </state>
@@ -69,8 +68,8 @@
           <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/email.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -113,8 +112,8 @@
           <file leaf-file-name="email.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/email.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -326,12 +325,12 @@
       <workItem from="1479822960607" duration="1510000" />
       <workItem from="1479917338159" duration="1226000" />
       <workItem from="1479984535127" duration="4620000" />
-      <workItem from="1484825000856" duration="6216000" />
+      <workItem from="1484825000856" duration="6329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18255000" />
+    <option name="totallyTimeSpent" value="18368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -569,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="45">
           <caret line="114" column="85" selection-start-line="114" selection-start-column="85" selection-end-line="114" selection-end-column="85" />
           <folding />
         </state>
@@ -577,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>

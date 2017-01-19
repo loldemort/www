@@ -18,9 +18,6 @@
    $mail->AddAddress("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
    $mail->AddReplyTo("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
 
-   $sender = $_POST['gjest_1'];
-   $mail = $_POST['e_mail'];
-   $sleepover1 = $_POST['gjest_1_overnatting'];
 
 
 
