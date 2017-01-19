@@ -11,7 +11,6 @@
    $mail->SMTPSecure = 'tls';
    $mail->Port = "587"; // 8025, 587 and 25 can also be used. Use Port 465 for SSL.
    $mail->SMTPAuth = true;
-   $mail->SMTPDebug = 1;
    $mail->IsHTML(true);
    $mail->Username = "AKIAI6QIWAF6XJQT2FEQ";
    $mail->Password = "AgI86lg6cpg/qntNj+NwShyjl+fxmdnA1Yc+nwXNIjpU";
