@@ -11,7 +11,7 @@
    $mail->IsHTML(true);
    $mail->SMTPSecure = 'ssl';
    $mail->Username = "oysteinbhauan@gmail.com";
-   $mail->Password = "RimskijKorsakov1812";
+   $mail->Password = "Flanders2";
 
    $mail->From     = "ingridogjoakim@gmail.com";
    $mail->FromName = "Bryllupsweb";
