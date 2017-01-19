@@ -29,22 +29,22 @@
    }
 
    if( isset($_POST['gjest_2']) ){
-     $guest3 = $_POST['gjest_2'];
+     $guest2 = $_POST['gjest_2'];
      $bodytext =  $bodytext . "<p>Følgende har også blitt meldt av:</p><p>$guest2</p>";
    }
 
    if( isset($_POST['gjest_4']) ){
-     $guest4 = $_POST['gjest_4'];
+     $guest3 = $_POST['gjest_4'];
      $bodytext =  $bodytext . "<p>$guest3 </p>";
    }
 
    if( isset($_POST['gjest_5']) ){
-     $guest5 = $_POST['gjest_5'];
+     $guest4 = $_POST['gjest_5'];
      $bodytext =  $bodytext . "<p>$guest4</p>";
    }
 
    if( isset($_POST['gjest_6']) ){
-     $guest6 = $_POST['gjest_6'];
+     $guest5 = $_POST['gjest_6'];
      $bodytext =  $bodytext . "<p>$guest5</p>";
    }
 
