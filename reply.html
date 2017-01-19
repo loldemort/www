@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="shift.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reply.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/simple-print" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css"/>
+
+    <title> Ingrid og Joakim </title>
+
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Hjem</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="reply.html">Svar på invitasjon</a>
+                </li>
+                <li>
+                    <a href="sleepover.html">Overnatting</a>
+                </li>
+                <li>
+                    <a href="information.html">Informasjon</a>
+                </li>
+                <li>
+                    <a href="wishlist.html">Ønskeliste</a>
+                </li>
+                <li>
+                    <a href="contact.html">Kontakt oss</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav><!--<div class = "container">
+    <div class = "col-md-4">
+        <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="firstname">Fornavn</span>
+            <input type="text" class="form-control" placeholder="Fornavn" aria-describedby="sizing-addon1">
+        </div>
+    </div>
+    <div class = "col-md-4">
+        <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="lastname">Etternavn</span>
+            <input type="text" class="form-control" placeholder="Etternavn" aria-describedby="sizing-addon1">
+jik    </div>
+</div>-->
+
+<div class="background-image">
+    <img src="resources/background22.jpg">
+</div>
+
+<div class="jumbotron container-fluid">
+    <div class="container">
+        <h1> SVAR PÅ INVITASJON</h1>
+    </div>
+</div>
+<form class="form-horizontal" action="mailto:ingridogjoakim@gmail.com" method="post" enctype="text/plain" accept-charset="UTF-8">
+    <div class="form-group">
+        <div class="col-sm-3" id = "info">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h3>Her kan du svare på invitasjonen</h3>
+                    <p>Vi håper dette svarskjemaet har et såpass greit brukergrensesnitt at dere
+                        intuitivt skjønner hva dere skal fylle ut og inn. Skulle det likevel skjære seg,
+                        eller dere eventuelt har annet eller mer på hjertet, kan dere selvsagt skrive direkte til <a href="mailto:ingridogjoakim@gmail.com"> ingridogjoakim@gmail.com</a>
+                        (eller gjennom hvilken kommunikasjonskanal dere måtte ønske).</p>
+
+                    <p>Ta gjerne en dobbeltsjekk på at mailadressen du skriver inn er feilfri!</p>
+
+                    <p>(Dersom noen i følget ikke kan komme, kan du først fylle ut og sende inn for de som kommer, og deretter melde avbud for de som ikke kan.)
+
+                    </p> <p>Gi beskjed om allergier eller lignende også, du kan for eksempel bruke kommentarfeltet i svarskjemaet til dette.
+                </p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "col-sm-4">
+            <div class = "button">
+                <a href = "replyno.html">
+                    <button type="button" class="btn btn-default btn-lg btn-block">Klikk her for å melde avbud</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <input type="name" name="Gjest 1" class="form-control" id="fullname" placeholder="Navn" required>
+        </div>
+        <div class="col-sm-4">
+            <input type="email" name="E-Post" class="form-control" id="email" placeholder="E-Post" required>
+        </div>
+        <div class='col-sm-4'>
+            <select class = 'form-control' id = '" + sleepoverid + "' name="Gjest 1 overnatting">
+                <option value = 0>-- Skal du overnatte? --</option>"
+                <option value = ja>Ja</option>"
+                <option value = nei>Nei</option>
+            </select>
+        </div>
+
+        <!--<div class="form-group">
+
+            <div class="col-sm-4">
+                <input type="name" class="form-control" id="lastname" placeholder="Etternavn">
+            </div>
+        </div>-->
+        <div class="col-sm-4">
+            <select class="form-control" id = "additionalPersons">
+                <option value = 0>-- Har du følge? --</option>
+                <option value = 'nei'>Nei</option>
+                <option value = 1>1 person</option>
+                <option value = 2>2 personer</option>
+                <option value = 3>3 personer</option>
+                <option value = 4>4 personer</option>
+                <option value = 5>5 personer</option>
+            </select>
+        </div>
+        <div id = "extraPersons" ></div>
+
+        <!--<select class="form-control" id = "sleepover" disabled>
+            <option value = 0>&#45;&#45; Fyll ut resten først &#45;&#45;</option>
+            <option value = 'ingen'>Ingen</option>
+        </select>-->
+        <div id = "sleepoverPersons"></div>
+
+        <div id = "additionalInfo">
+            <div class = "col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <h5>Har du noen tilleggsopplysninger eller spørsmål? Eller vil du bare legge igjen en hyggelig hilsen?</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <!-- <div class="input-group input-group-lg">
+                     <span class="input-group-addon" id="sizing-addon1"></span>
+                     <input type="text" class="form-control" placeholder="Skriv gjerne her!" aria-describedby="sizing-addon1" style="height:300px">
+                 </div>-->
+                <textarea name="Kommentar " rows="5" placeholder="Skriv her..."></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-4">
+                <button type="submit" class="btn btn-default" id = "submitbutton">Send inn svar</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<footer class="footer">
+    <h5>©2016 Laget av Øystein Hauan</h5>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/reply.js"></script>
+<script src = "js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
