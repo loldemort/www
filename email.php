@@ -9,7 +9,7 @@
    $mail->SMTPAuth = true;
    $mail->SMTPDebug = 1;
    $mail->IsHTML(true);
-   $mail->SMTPSecure = 'ssl';
+   $mail->SMTPSecure = 'tls';
    $mail->Username = "oysteinbhauan@gmail.com";
    $mail->Password = "Flanders2";
 
