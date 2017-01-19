@@ -26,27 +26,27 @@
 
    if( isset($_POST['gjest_2']) ){
      $guest2 = $_POST['gjest_2'];
-     $sleepover2 = $_POST['gjest_2_overnatting']
+     $sleepover2 = $_POST['gjest_2_overnatting'];
    }
 
    if( isset($_POST['gjest_3']) ){
      $guest2 = $_POST['gjest_3'];
-     $sleepover2 = $_POST['gjest_3_overnatting']
+     $sleepover2 = $_POST['gjest_3_overnatting'];
    }
 
    if( isset($_POST['gjest_4']) ){
      $guest2 = $_POST['gjest_4'];
-     $sleepover2 = $_POST['gjest_4_overnatting']
+     $sleepover2 = $_POST['gjest_4_overnatting'];
    }
 
    if( isset($_POST['gjest_5']) ){
      $guest2 = $_POST['gjest_5'];
-     $sleepover2 = $_POST['gjest_5_overnatting']
+     $sleepover2 = $_POST['gjest_5_overnatting'];
    }
 
    if( isset($_POST['gjest_6']) ){
      $guest2 = $_POST['gjest_6'];
-     $sleepover2 = $_POST['gjest_6_overnatting']
+     $sleepover2 = $_POST['gjest_6_overnatting'];
    }
 
    
