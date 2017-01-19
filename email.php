@@ -13,7 +13,7 @@
 
    $mail->From     = "invitasjon@ingridogjoakim.no";
    $mail->FromName = "Bryllupsweb";
-   $mail->AddAddress("oysteinbhauan@gmail.com", "Admin");
+   $mail->AddAddress("invitasjon@ingridogjoakim.no", "Admin");
    $mail->AddReplyTo("ingridogjoakim@gmail.com", "Bernt");
 
    $mail->Subject  = "Hi!";
