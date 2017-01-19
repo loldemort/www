@@ -18,11 +18,14 @@
    $mail->AddAddress("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
    $mail->AddReplyTo("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
 
+   $sender = $_POST['Gjest 1'];
+   $email = $_POST['E-Post'];
+   $sleepover1 = $_POST['Gjest_1_overnatting'];
 
 
 
-   $mail->Subject  = "har svart på invitasjonen!";
-   $mail->Body     = "E-Posten til  er ";
+   $mail->Subject  = "$sender har svart på invitasjonen!";
+   $mail->Body     = "E-Posten til $sender er $email";
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
