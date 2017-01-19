@@ -112,8 +112,8 @@ jik    </div>
             <input type="email" name="e_mail" class="form-control" id="email" placeholder="E-Post" required>
         </div>
         <div class='col-sm-4'>
-            <select class = 'form-control' id = '" + sleepoverid + "' name="gjest_1_overnatting">
-                <option value = 0>-- Skal du overnatte? --</option>"
+            <select class = 'form-control' id = '" + sleepoverid + "' name="gjest_1_overnatting" required>
+                <option value = "">-- Skal du overnatte? --</option>"
                 <option value = ja>Ja</option>"
                 <option value = nei>Nei</option>
             </select>
@@ -126,7 +126,7 @@ jik    </div>
             </div>
         </div>-->
         <div class="col-sm-4">
-            <select class="form-control" id = "additionalPersons">
+            <select class="form-control" id = "additionalPersons" required>
                 <option value = 0>-- Har du følge? --</option>
                 <option value = 'nei'>Nei</option>
                 <option value = 1>1 person</option>
