@@ -11,7 +11,7 @@
    $mail->Username = "ingridogjoakim1";
    $mail->Password = "bB=9@tSH";
 
-   $mail->From     = "Invitasjon";
+   $mail->From     = "invitasjon@ingridogjoakim.no";
    $mail->FromName = "Bryllupsweb";
    $mail->AddAddress("oysteinbhauan@gmail.com", "Admin");
    $mail->AddReplyTo("ingridogjoakim@gmail.com", "Bernt");
