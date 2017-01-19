@@ -72,7 +72,8 @@
 		echo 'Mailer error: ' . $mail->ErrorInfo;
 		exit;
    } else {
-		echo 'Message has been sent.';
+      header('Location: success.html');
+      exit;
    }
 ?>
 Ste
