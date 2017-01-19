@@ -62,7 +62,7 @@
     </div>
 </div>
 
-<form class="form-horizontal">
+<form class="form-horizontal" method="post" action="emailno.php">
     <div class="form-group">
         <div class="col-sm-3" id = "info">
             <div class="panel panel-default">
@@ -74,41 +74,46 @@
         </div>
 
         <div class="col-sm-4">
-            <input type="name" class="form-control" id="email" placeholder="Din e-post" required>
+            <input type="name" name="e_mail" class="form-control" id="email" placeholder="Din e-post" required>
         </div>
-    </div>"
-    <!--<div class="form-group">
+        "
+        <!--<div class="form-group">
 
+            <div class="col-sm-4">
+                <input type="name" class="form-control" id="lastname" placeholder="Etternavn">
+            </div>
+        </div>-->
         <div class="col-sm-4">
-            <input type="name" class="form-control" id="lastname" placeholder="Etternavn">
-        </div>
-    </div>-->
-    <select class="form-control" id = "additionalPersons">
-        <option value = 0>-- Hvor mange skal du melde avbud for? --</option>
-        <option value = 1>1 person</option>
-        <option value = 2>2 personer</option>
-        <option value = 3>3 personer</option>
-        <option value = 4>4 personer</option>
-        <option value = 5>5 personer</option>
-    </select>
-    <div id = "extraPersons" ></div>
+            <select class="form-control" id = "additionalPersons" required>
+                <option value = "">-- Hvor mange skal du melde avbud for? --</option>
+                <option value = 1>1 person</option>
+                <option value = 2>2 personer</option>
+                <option value = 3>3 personer</option>
+                <option value = 4>4 personer</option>
+                <option value = 5>5 personer</option>
+                <option value = 6>6 personer</option>
 
-    <div id = "additionalInfo">
-        <div class = "col-sm-4">
-            <h5>Her kan du skrive en hilsen eller kommentar...??</h5>
+            </select>
         </div>
-        <div class="col-sm-4">
-            <!-- <div class="input-group input-group-lg">
-                 <span class="input-group-addon" id="sizing-addon1"></span>
-                 <input type="text" class="form-control" placeholder="Skriv gjerne her!" aria-describedby="sizing-addon1" style="height:300px">
-             </div>-->
-            <textarea name="Text1" rows="5"></textarea>
-        </div>
-    </div>
+        <div id = "extraPersons" ></div>
 
-    <div class="form-group">
-        <div class="col-sm-4">
-            <button type="submit" class="btn btn-default" disabled>Send inn svar</button>
+        <div id = "additionalInfo">
+            <div class = "col-sm-4">
+                <h5>Her kan du skrive en hilsen eller kommentar...??</h5>
+            </div>
+            <div class="col-sm-4">
+                <!-- <div class="input-group input-group-lg">
+                     <span class="input-group-addon" id="sizing-addon1"></span>
+                     <input type="text" class="form-control" placeholder="Skriv gjerne her!" aria-describedby="sizing-addon1" style="height:300px">
+                 </div>-->
+                <textarea name="kommentar" rows="5" placeholder="Skriv her..."></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-4">
+                <button type="submit" class="btn btn-default" >Send inn svar</button>
+            </div>
         </div>
     </div>
 </form>

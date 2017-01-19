@@ -15,7 +15,7 @@ $(document).ready(function () {
         if (persons > 0 ) {
             for (i = 0; i < persons; i++) {
                 var sleepoverid = "sleepover" + i;
-                $("#extraPersons").append("<div class='col-sm-4'> <input type='name' id = 'person" + (i + 1) + "'class='form-control' placeholder='Gjest " + (i + 1) + "'> </div>")
+                $("#extraPersons").append("<div class='col-sm-4'> <input type='name' required name = 'gjest_" + (i + 1) + "' id = 'person" + (i + 1) + "'class='form-control' placeholder='Gjest " + (i + 1) + "'> </div>")
                 //$("#sleepover").append("<option value = " + (i + 1) + ">" + (i + 1) + " </option>")
             }
             //$("#sleepover").append("<option value = 'alle'>Alle</option>")
