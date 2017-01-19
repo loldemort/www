@@ -4,6 +4,7 @@
    require("php/PHPMailerAutoload.php"); // path to the PHPMailerAutoload.php file.
 
    $mail = new PHPMailer();
+   $mail->CharSet = 'UTF-8';
    $mail->IsSMTP();
    $mail->Mailer = "smtp";
    $mail->Host = "email-smtp.us-east-1.amazonaws.com";
