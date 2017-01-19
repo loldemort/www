@@ -70,7 +70,7 @@
 		echo 'Mailer error: ' . $mail->ErrorInfo;
 		exit;
    } else {
-      header('Location: success.html');
+      header('Location: successno.html');
       exit;
    }
 ?>
