@@ -18,9 +18,20 @@
    $mail->AddAddress("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
    $mail->AddReplyTo("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
 
+   $bodytext = "Eposten til ";
+
+   foreach($_POST as $key => $value) {
+     if($key == 'gjest_1'){
+        $bodytext = $bodytext . $value;
+     } elseif {
+     }
+   }
+
    $sender = $_POST['gjest_1'];
    $email = $_POST['e_mail'];
    $sleepover1 = $_POST['gjest_1_overnatting'];
+
+
    /*$guest2 = $_POST['gjest_2']; 
    $sleepover2 = $_POST['gjest_2_overnatting'];
     $guest3 = $_POST['gjest_3']; 
