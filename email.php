@@ -4,14 +4,16 @@
    $mail = new PHPMailer();
    $mail->IsSMTP();
    $mail->Mailer = "smtp";
-   $mail->Host = "smtp.domeneshop.no";
-   $mail->Port = "587"; // 8025, 587 and 25 can also be used. Use Port 465 for SSL.
+   $mail->Host = "smtp.gmail.com";
+   $mail->Port = "465"; // 8025, 587 and 25 can also be used. Use Port 465 for SSL.
    $mail->SMTPAuth = true;
-   $mail->SMTPSecure = 'tls';
-   $mail->Username = "ingridogjoakim1";
-   $mail->Password = "bB=9@tSH";
+   $mail->SMTPDebug = 1;
+   $mail->IsHTML(true);
+   $mail->SMTPSecure = 'ssl';
+   $mail->Username = "oysteinbhauan@gmail.com";
+   $mail->Password = "RimskijKorsakov1812";
 
-   $mail->From     = "invitasjon@ingridogjoakim.no";
+   $mail->From     = "ingridogjoakim@gmail.com";
    $mail->FromName = "Bryllupsweb";
    $mail->AddAddress("invitasjon@ingridogjoakim.no", "Admin");
    $mail->AddReplyTo("ingridogjoakim@gmail.com", "Bernt");
