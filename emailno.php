@@ -25,26 +25,26 @@
 
    if( isset($_POST['gjest_1']) ){
      $guest1 = $_POST['gjest_1'];
-     $bodytext = "<p>Gjest 1: $guest1.</p>";
+     $bodytext = "<p>Følgende har meldt avbud:</p><p>$guest1.</p>";
    }
 
    if( isset($_POST['gjest_2']) ){
      $guest2 = $_POST['gjest_2'];
-     $bodytext =  $bodytext . "<p>Følgende har også blitt meldt av:</p><p>$guest2</p>";
+     $bodytext =  $bodytext . "<p>$guest2</p>";
    }
 
-   if( isset($_POST['gjest_4']) ){
-     $guest3 = $_POST['gjest_4'];
+   if( isset($_POST['gjest_3']) ){
+     $guest3 = $_POST['gjest_3'];
      $bodytext =  $bodytext . "<p>$guest3 </p>";
    }
 
-   if( isset($_POST['gjest_5']) ){
-     $guest4 = $_POST['gjest_5'];
+   if( isset($_POST['gjest_4']) ){
+     $guest4 = $_POST['gjest_4'];
      $bodytext =  $bodytext . "<p>$guest4</p>";
    }
 
-   if( isset($_POST['gjest_6']) ){
-     $guest5 = $_POST['gjest_6'];
+   if( isset($_POST['gjest_5']) ){
+     $guest5 = $_POST['gjest_5'];
      $bodytext =  $bodytext . "<p>$guest5</p>";
    }
 
@@ -61,7 +61,7 @@
 
 
 
-   $mail->Subject  = "$guest1 har meldt avbud!";
+   $mail->Subject  = "Noen har meldt avbud!";
    $mail->Body     = "<p>$guest1 sin epost er $email. </p>" . $bodytext;
    $mail->WordWrap = 50;
 
