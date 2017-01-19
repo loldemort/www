@@ -1,8 +1,8 @@
 <?php
-   require("php/PHPMailerAutoload.php"); // path to the PHPMailerAutoload.php file.
-
    error_reporting(E_ALL);
    ini_set('display_errors', 'On');
+   require("php/PHPMailerAutoload.php"); // path to the PHPMailerAutoload.php file.
+
    $mail = new PHPMailer();
    $mail->IsSMTP();
    $mail->Mailer = "smtp";
