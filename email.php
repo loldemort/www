@@ -14,12 +14,27 @@
    $mail->Password = "AgI86lg6cpg/qntNj+NwShyjl+fxmdnA1Yc+nwXNIjpU";
 
    $mail->From     = "oysteinbhauan@gmail.com";
-   $mail->FromName = "Bryllupsweb";
-   $mail->AddAddress("invitasjon@ingridogjoakim.no", "Admin");
-   $mail->AddReplyTo("oysteinbhauan@gmail.com", "Bernt");
+   $mail->FromName = "Svar på invitasjon";
+   $mail->AddAddress("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
+   $mail->AddReplyTo("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
 
-   $mail->Subject  = "Hi!";
-   $mail->Body     = "Hi! How are you?";
+   $sender = $_POST['Gjest 1'];
+   $mail = $_POST['E-Post'];
+   $sleepover1 = $_POST['Gjest 1 overnatting'];
+   $guest2 = $_POST['Gjest 2'];
+   $sleepover2 = $_POST['Gjest 2 overnatting?'];
+   $guest3 = $_POST['Gjest 3'];
+   $sleepover3 = $_POST['Gjest 3 overnatting?'];
+   $guest4 = $_POST['Gjest 4'];
+   $sleepover4 = $_POST['Gjest 4 overnatting?'];
+   $guest5 = $_POST['Gjest 5'];
+   $sleepover5 = $_POST['Gjest 5 overnatting?'];
+   $guest6 = $_POST['Gjest 6'];
+   $sleepover6 = $_POST['Gjest 6 overnatting?'];
+
+
+   $mail->Subject  = "$sender har svart på invitasjonen!";
+   $mail->Body     = "E-Posten til $sender er $mail";
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
