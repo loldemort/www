@@ -21,16 +21,7 @@
    $sender = $_POST['Gjest 1'];
    $mail = $_POST['E-Post'];
    $sleepover1 = $_POST['Gjest 1 overnatting'];
-   $guest2 = $_POST['Gjest 2'];
-   $sleepover2 = $_POST['Gjest 2 overnatting?'];
-   $guest3 = $_POST['Gjest 3'];
-   $sleepover3 = $_POST['Gjest 3 overnatting?'];
-   $guest4 = $_POST['Gjest 4'];
-   $sleepover4 = $_POST['Gjest 4 overnatting?'];
-   $guest5 = $_POST['Gjest 5'];
-   $sleepover5 = $_POST['Gjest 5 overnatting?'];
-   $guest6 = $_POST['Gjest 6'];
-   $sleepover6 = $_POST['Gjest 6 overnatting?'];
+   
 
 
    $mail->Subject  = "$sender har svart på invitasjonen!";
