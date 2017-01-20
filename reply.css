@@ -82,3 +82,11 @@ p{
     float: none;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+
+    #submitbutton {
+        margin-left: 33%;
+    }
+
+}
