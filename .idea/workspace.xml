@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb8e843-b69e-4270-b02b-79770fe9dc88" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information.html" afterPath="$PROJECT_DIR$/information.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reply.html" afterPath="$PROJECT_DIR$/reply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/replyno.html" afterPath="$PROJECT_DIR$/replyno.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sleepover.html" afterPath="$PROJECT_DIR$/sleepover.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/success.html" afterPath="$PROJECT_DIR$/success.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/successcontact.html" afterPath="$PROJECT_DIR$/successcontact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/successno.html" afterPath="$PROJECT_DIR$/successno.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wishlist.html" afterPath="$PROJECT_DIR$/wishlist.html" />
     </list>
     <ignored path="website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reply.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reply.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="558">
+              <caret line="185" column="9" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -62,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wishlist.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wishlist.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wishlist.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -75,8 +67,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state relative-caret-position="573">
+              <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -175,16 +167,16 @@
         <option value="$PROJECT_DIR$/email.php" />
         <option value="$PROJECT_DIR$/failure.html" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/information.html" />
-        <option value="$PROJECT_DIR$/reply.html" />
         <option value="$PROJECT_DIR$/replyno.html" />
         <option value="$PROJECT_DIR$/sleepover.html" />
         <option value="$PROJECT_DIR$/success.html" />
         <option value="$PROJECT_DIR$/successcontact.html" />
         <option value="$PROJECT_DIR$/successno.html" />
         <option value="$PROJECT_DIR$/wishlist.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/reply.html" />
       </list>
     </option>
   </component>
@@ -347,12 +339,12 @@
       <workItem from="1479984535127" duration="4620000" />
       <workItem from="1484825000856" duration="14793000" />
       <workItem from="1485350834963" duration="3357000" />
-      <workItem from="1485356253733" duration="972000" />
+      <workItem from="1485356253733" duration="1395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31161000" />
+    <option name="totallyTimeSpent" value="31584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -592,14 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -612,14 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -668,6 +644,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="185" column="9" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
           <folding />
         </state>
       </provider>
