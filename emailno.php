@@ -66,8 +66,7 @@
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
-		echo 'Message was not sent.';
-		echo 'Mailer error: ' . $mail->ErrorInfo;
+		header('Location: failure.html');
 		exit;
    } else {
       header('Location: successno.html');
