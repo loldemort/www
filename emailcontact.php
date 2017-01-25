@@ -29,7 +29,7 @@
 
 
    $mail->Subject  = "$fname har kontaktet deg!";
-   $mail->Body     = "<p>$bodytext </p>";
+   $mail->Body     = "<p>$fname sin epost er $email.</p><p>$bodytext </p>";
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
