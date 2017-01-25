@@ -5,3 +5,22 @@ p{
 .col-md-6 {
     text-align: left;
 }
+
+input {
+    max-width: 100%;
+}
+
+.form-control {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+textarea {
+    width: 100%;
+    font-size: 3em;
+}
+
+.btn-default {
+    margin-top: 1em;
+}

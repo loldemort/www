@@ -72,10 +72,19 @@
                 <div class="panel-body">
                     <h3>Toastmaster</h3>
                     <h4>Øystein Bjerke Hauan</h4>
-                    <p>Benytt helst e-post, da Øystein bor i Tyskland frem til august.</p>
+                    <p>Benytt helst kontaktskjemaet nedenfor eller e-post, da Øystein bor i Tyskland frem til august.</p>
                     <p>E-post: <a href="mailto:oysteinbhauan@gmail.com">oysteinbhauan@gmail.com</a></p>
                     <p>Telefon (Norge): <a href="tel:+4748358439">48 35 84 39</a> (ikke tilgjengelig før i august)</p>
                     <p>Telefon (Tyskland): <a href="tel:+4917647604018">+49 176 476 04 018</a></p>
+
+                    <h3>Kontakskjema:</h3>
+                    <form class="form-horizontal" method="post" action="emailcontact.php">
+                        <input type="fname" name="name" placeholder="Ditt navn" class="form-control" required>
+                        <input type="email" name="e_mail" placeholder="E-post" class="form-control"  required>
+                        <textarea name = "inquiry" placeholder="Skriv her..." rows="5" required></textarea>
+                        <button type="submit" id = "submitbutton" class="btn btn-default" >Send</button>
+                    </form>
+
                 </div>
             </div>
         </div>
