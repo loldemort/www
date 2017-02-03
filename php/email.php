@@ -68,10 +68,10 @@
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
-		header('Location: failure.html');
+		header('Location: ../failure.html');
 		exit;
    } else {
-      header('Location: success.html');
+      header('Location: ../success.html');
       exit;
    }
 ?>
