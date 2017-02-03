@@ -78,7 +78,8 @@
                     <p>Telefon (Tyskland): <a href="tel:+4917647604018">+49 176 476 04 018</a></p>
 
                     <h3>Kontakskjema:</h3>
-                    <form class="form-horizontal" method="post" action="php/emailcontact.php">
+                    <form class="form-horizontal" method="post" action="php/emailcontact.php" onsubmit="document.getElementById('submitbutton').disabled=true;
+                    document.getElementById('submitbutton').value='Sender inn...';">
                         <input type="fname" name="fname" placeholder="Ditt navn" class="form-control" required>
                         <input type="email" name="e_mail" placeholder="E-post" class="form-control"  required>
                         <textarea class ="form-control" name = "inquiry" placeholder="Skriv her..." rows="5" required></textarea>
