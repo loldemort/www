@@ -86,6 +86,8 @@
 
 </div>
 
+<div id = "instafeed"></div>
+
 <div class="learn-more">
     <div class="container">
         <div class = "row">
@@ -129,6 +131,15 @@
 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js"></script>
 <script src = "js/bootstrap.min.js"></script>
+<script type="text/javascript" src="node_modules/instafeed.js/instafeed.min.js"/>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'marenlouiseogsimeon',
+        clientId: '6c256efe5ae6449cb3f1cafe13d12f50'
+    });
+    feed.run();
+</script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
 </body>

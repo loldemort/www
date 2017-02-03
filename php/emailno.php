@@ -1,7 +1,7 @@
 <?php
    error_reporting(E_ALL);
    ini_set('display_errors', 'On');
-   require("php/PHPMailerAutoload.php"); // path to the PHPMailerAutoload.php file.
+   require("PHPMailerAutoload.php"); // path to the PHPMailerAutoload.php file.
 
    $mail = new PHPMailer();
    $mail->CharSet = 'UTF-8';
