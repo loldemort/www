@@ -20,6 +20,11 @@
    $mail->AddAddress("toastmaster@ingridogjoakim.no", "Bryllupsweb");
    $mail->AddReplyTo("toastmaster@ingridogjoakim.no", "Bryllupsweb");
 
+   if(!isset($_POST['fname'])){
+       header('Location: ../failure.html');
+       exit;
+      }
+
    $email = $_POST['e_mail'];
    $fname = $_POST['fname'];
    $bodytext = $_POST['inquiry'];
