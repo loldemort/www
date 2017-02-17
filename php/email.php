@@ -20,7 +20,7 @@
    $mail->AddAddress("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
    $mail->AddReplyTo("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
 
-   if(!(isset($_POST['gjest_1']) && isset($_POST['e_mail']) && isset($_POST['gjest_1_overnatting'])){
+   if(empty($_POST['gjest_1']) || empty($_POST['e_mail']) || empty($_POST['gjest_1_overnatting'])){
     header('Location: ../failure.html');
     exit;
    }

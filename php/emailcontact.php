@@ -20,7 +20,7 @@
    $mail->AddAddress("toastmaster@ingridogjoakim.no", "Bryllupsweb");
    $mail->AddReplyTo("toastmaster@ingridogjoakim.no", "Bryllupsweb");
 
-   if(!isset($_POST['fname'])){
+   if(empty($_POST['fname'])){
        header('Location: ../failure.html');
        exit;
       }
