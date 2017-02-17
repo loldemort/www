@@ -20,7 +20,7 @@
    $mail->AddAddress("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
    $mail->AddReplyTo("invitasjon@ingridogjoakim.no", "Ingrid og Joakim");
 
-   if(!isset($_POST['gjest_1'])){
+   if(!(isset($_POST['gjest_1']) && isset($_POST['e_mail']) && isset($_POST['gjest_1_overnatting'])){
     header('Location: ../failure.html');
     exit;
    }
@@ -62,7 +62,11 @@
 
    if( isset($_POST['kommentar']) ){
       $comments = $_POST['kommentar'];
-      $bodytext =  $bodytext . "<p>Kommentarer: $comments</p>";
+      if (strlen($comments) > 0) {
+      	# code...
+      
+      		$bodytext =  $bodytext . "<p>Kommentarer: $comments</p>";
+  	 	}	
    }
 
    
