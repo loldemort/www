@@ -12,8 +12,8 @@
    $mail->Port = "587"; // 8025, 587 and 25 can also be used. Use Port 465 for SSL.
    $mail->SMTPAuth = true;
    $mail->IsHTML(true);
-   $mail->Username = "AKIAI6QIWAF6XJQT2FEQ";
-   $mail->Password = "AgI86lg6cpg/qntNj+NwShyjl+fxmdnA1Yc+nwXNIjpU";
+   $mail->Username = "AKIAIED2AT4K2VXCQGBQ";
+   $mail->Password = "AmTUMGZq6B2eJ3fKy3783BOqe6zpYMnxBzKLrmaM1ttg";
 
    $mail->From     = "toastmaster@ingridogjoakim.no";
    $mail->FromName = "Bryllupsweb";
