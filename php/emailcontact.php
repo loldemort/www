@@ -35,8 +35,7 @@
    $mail->WordWrap = 50;
 
    if(!$mail->Send()) {
-		header('Location: ../failure.html');
-		exit;
+		echo "Mailer Error: " . $mail->ErrorInfo;
    } else {
       header('Location: ../successcontact.html');
       exit;
