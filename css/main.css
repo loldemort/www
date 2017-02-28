@@ -100,6 +100,7 @@ textarea{
     background-size: cover;
     padding-top: 0px;
     background-color:transparent !important;
+    margin-bottom: 0px;
 }
 
 .jumbotron .container {

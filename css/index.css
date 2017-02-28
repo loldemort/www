@@ -9,6 +9,10 @@ body{
 
 }
 
+.jumbotron {
+    margin-bottom: 30px;
+}
+
 .background-image img{
     opacity: 0.4;
 }
