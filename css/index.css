@@ -16,3 +16,7 @@ body{
 .background-image img{
     opacity: 0.4;
 }
+
+.alert-warning {
+    text-align: center;
+}
